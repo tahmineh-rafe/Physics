@@ -4,9 +4,9 @@
 
 This project implements the decomposition of a unitary matrix into the physical parameters required for its implementation in an integrated photonic circuit.
 
-The decomposition procedure is based on the unitary matrix decomposition methods introduced by Reck et al. and Clements et al. [1, 2]. These methods provide systematic approaches for decomposing an arbitrary unitary matrix into a network of two-mode transformations.
+The decomposition procedure is based on the unitary matrix decomposition methods introduced by Reck et al. and Clements et al. [1, 2, 3]. These methods provide systematic approaches for decomposing an arbitrary unitary matrix into a network of two-mode transformations.
 
-In this project, the decomposition algorithms were implemented independently in Python. To test the implementation, a unitary matrix obtained from the work of Araúzola et al. was used as the target matrix [3].
+In this project, the decomposition algorithms were implemented independently in Python. To test the implementation, a unitary matrix obtained from the work of Arrazola et al. was used as the target matrix [4].
 
 ## What does the code do?
 
@@ -58,10 +58,20 @@ The purpose of this repository is to provide a Python implementation of unitary 
 
 The repository focuses on the computational implementation, matrix reconstruction, and numerical verification of the decomposition procedure.
 
+## Citation
+
+If you use this implementation in academic work, please cite this repository as:
+
+Rafe, Tahmineh. (2026).
+Unitary Matrix Decomposition for Photonic Quantum Computing.
+GitHub repository: Physics.
+
 ## References
 
-[1] Reck et al., *Experimental realization of any discrete unitary operator*, [full bibliographic information].
+[1] Reck, M., Zeilinger, A., Bernstein, H. J., & Bertani, P. (1994). Experimental realization of any discrete unitary operator. Physical review letters, 73(1), 58.
 
-[2] Clements et al., *Optimal design for universal multiport interferometers*, [full bibliographic information].
+[2] Clements, W. R., Humphreys, P. C., Metcalf, B. J., Kolthammer, W. S., & Walmsley, I. A. (2016). Optimal design for universal multiport interferometers. Optica, 3(12), 1460-1465.
 
-[3] Araúzola et al., [full bibliographic information of the paper from which the target unitary matrix was obtained].
+[3] Capmany, J., & Pérez, D. (2020). Programmable integrated photonics. Oxford University Press.
+
+[4] Arrazola, J. M., Bergholm, V., Brádler, K., Bromley, T. R., Collins, M. J., Dhand, I., ... & Zhang, Y. (2021). Quantum circuits with many photons on a programmable nanophotonic chip. Nature, 591(7848), 54-60.
